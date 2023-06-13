@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <!-- Transparent Background -->
+            <solid android:color="@android:color/transparent" />
+
+            <!-- Box Shadow -->
+            <corners android:radius="10dp" />
+            <padding android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="0dp" />
+
+            <!-- Adding the shadow -->
+            <gradient
+                android:angle="45"
+                android:centerColor="#00000000"
+                android:endColor="#50000000"
+                android:startColor="#00000000" />
+
+            <!-- Border -->
+            <stroke android:color="@android:color/darker_gray" android:width="2dp"/>
+        </shape>
+    </item>
+</selector>
